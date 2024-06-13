@@ -1,7 +1,7 @@
 import "./styles.css";
 
 export default {
-    adjustColumnWidth(table, padding = 32) {
+    autoColumnWidth(table, padding = 10) {
         table.classList.add("r-table");
         const colgroup = table.querySelector("colgroup");
         const colDefs = [...colgroup.querySelectorAll("col")];
