@@ -1,0 +1,37 @@
+{
+  "name": "xr-auto-columns",
+  "version": "0.0.1",
+  "description": "el-table implements automatic column width based on content",
+  "main": "dist/index.min.js",
+  "scripts": {
+    "build": "webpack --progress --hide-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weijianpeng18421/xr-auto-columns.git"
+  },
+  "keywords": [
+    "xr-auto-columns",
+    "vue",
+    "Element UI",
+    "el-table",
+    "el-table-column列宽度自适应内容"
+  ],
+  "author": "weijianpeng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weijianpeng18421/xr-auto-columns/issues"
+  },
+  "homepage": "https://github.com/weijianpeng18421/xr-auto-columns#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/plugin-proposal-optional-chaining": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {}
+}
